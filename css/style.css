@@ -1,0 +1,212 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    max-width: 1600px;
+    padding: 0px 220px 0px 220px;
+}
+
+#navigation{
+    margin-top: 100px;
+}
+
+.nav-link{
+    margin: 0px 15px 0px 15px;
+}
+
+.topBtn{
+    margin-left: 15px;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+#firstSection{
+    background-image: url("../images/backgroundHouse.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.firstHeading{
+    font-size: 60px;
+}
+
+.secondHeading{
+    font-size: 20px;
+}
+
+#firstLeft{
+    padding:250px 70px 0px 70px;
+}
+
+#editorsChoice{
+    background-color: lightgrey;
+    padding: 5px 50px 5px 25px;
+    border-radius: 20px;
+}
+
+#demoVideo{
+    margin-left: 20px;
+}
+
+.tryButton{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+    border: none;
+}
+
+#lower{
+    margin-top: 25px;
+}
+
+#trustedSection{
+    padding-bottom: 95px;
+}
+#trustedText{
+    margin-top: 115px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.mt-10{
+    margin-top: 30px;
+}
+
+#featuresSection{
+    padding-top: 95px;
+    padding-bottom: 110px;
+}
+
+#featuresRight{
+    padding: 0px 70px 0px 100px;
+}
+
+#featuresDesc{
+    font-size: 16px;
+}
+
+#featuresTop{
+    margin-bottom: 25px;
+}
+
+#awesomeText{
+    font-size: 40px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float:right;
+    padding-left: 25px;
+}
+
+.fastText{
+    font-size: 20px;
+    color:#F55767;
+}
+
+.prototype{
+    font-size: 20px;
+    color: #2563FF;
+}
+
+.vector{
+    font-size: 20px;
+    color: #40975F;
+}
+
+#jackpotsText{
+    padding: 0px 100px 0px 53px;
+}
+
+.heading{
+    font-size: 40px;
+    line-height:55px;
+}
+
+#jackpotsDesc{
+    padding-right: 70px;
+    padding-top: 41px;
+}
+
+#jackpotsSection{
+    padding-bottom: 63px;
+}
+
+#rewardsSection{
+    padding: 61px 0px 64px 53px;
+}
+
+.pr-50{
+    padding-right: 50px;
+}
+
+#codeIntegration{
+    padding: 63px 0px 107px 0px;
+}
+
+.integrationRight{
+    padding: 133px 0px 0px 51px;
+}
+
+.learnBtn{
+    margin-top: 30px;
+}
+
+#chooseApp{
+    padding:63px 0px 82px 0px;
+}
+
+.p-70{
+    padding:0px 70px 0px 70px;
+}
+
+#chooseTop{
+    padding-bottom: 55px;
+}
+
+.shortHeading{
+    font-size: 20px;
+}
+
+.ptb-30{
+    padding: 30px 0px 30px 0px;
+}
+
+#ultimateFeatures{
+    padding: 82px 0px 65px 0px;
+}
+
+#pd-48{
+    padding: 0px 0px 0px 48px;
+}
+
+.headPadding{
+     padding: 0px 300px 0px 0px;
+}
+
+.headDesc{
+    padding: 0px 233px 33px 0px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    body {
+        padding:0px 100px 0px 100px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      padding: 0px 20px 0px 20px;
+    }
+  }
