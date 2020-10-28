@@ -57,8 +57,9 @@ body{
     background-color: blue;
     color: white;
     border-radius: 30px;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 30px 10px 30px;
     border: none;
+  
 }
 
 #lower{
@@ -169,6 +170,10 @@ body{
     padding:0px 70px 0px 70px;
 }
 
+.plr-55{
+    padding: 0px 60px 0px 60px;
+}
+
 #chooseTop{
     padding-bottom: 55px;
 }
@@ -189,14 +194,26 @@ body{
     padding: 0px 0px 0px 48px;
 }
 
+
 .headPadding{
      padding: 0px 300px 0px 0px;
 }
 
-.headDesc{
+#headDesc{
     padding: 0px 233px 33px 0px;
 }
 
+#noCharge{
+    padding: 0px 0px 127px 0px;
+}
+
+#awesomeHead{
+    padding: 0px 300px 0px 300px;
+}
+
+#awesomeDesc{
+    padding: 0px 270px 0px 270px;
+}
 
 @media only screen and (max-width: 1000px) {
     body {
