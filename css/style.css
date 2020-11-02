@@ -456,7 +456,7 @@ body{
 
     #demoVideo {
         font-size: 14px;
-        margin-left: 0px; 
+        margin-left: 20px; 
     }
 
     .mobileM-10{
@@ -518,5 +518,8 @@ body{
 
     .footer-Img{
         margin-top: 30px;
+    }
+    #firstRight{
+        margin-top: 25px ;
     }
   }
