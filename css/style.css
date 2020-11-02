@@ -68,9 +68,9 @@ body{
 
 #trustedSection{
     padding-bottom: 95px;
+    padding-top: 115px ;
 }
 #trustedText{
-    margin-top: 115px;
     margin-bottom: 35px;
     text-align: center;
 }
@@ -127,6 +127,7 @@ body{
 #jackpotsText{
     padding: 0px 100px 0px 53px;
 }
+
 
 .heading{
     font-size: 40px;
@@ -307,15 +308,215 @@ body{
 .mt-50{
     margin-top: 50px;
 }
-@media only screen and (max-width: 1000px) {
+
+@media only screen and (max-width: 768px) {
     body {
-        padding:0px 100px 0px 100px;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    #navigation{
+        margin-top: 30px;
     }
 
+    #firstLeft{
+        padding: 50px 70px 0px 70px;
+    }
+
+    .firstHeading{
+        font-size: 40px;
+    }
+
+    #jackpotsText{
+        padding: 0px 100px 0px 53px;
+    }
+    
+    #trustedSection{
+        padding-bottom: 45px;
+        padding-top: 55px;
+    }
+   
+    #featuresSection{
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+
+    #featuresRight{
+        padding: 0px 20px 0px 20px;
+    }
+
+    #jackpotsText{
+        padding: 0px 20px 0px 20px;
+    }
+    
+    .heading{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #jackpotsDesc{
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    #jackpotsSection {
+        padding-bottom: 20px;
+    }
+
+    #rewardsSection {
+        padding: 20px 0px 30px 20px;
+    }
+
+    #codeIntegration {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .integrationRight {
+        padding: 30px 20px 30px 20px;
+    }
+
+    #chooseApp {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .p-70 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    #chooseTop {
+        padding-bottom: 30px;
+    }
+    
+    .ptb-30{
+        padding:15px 0px 15px 0px;
+    }
+
+    #ultimateFeatures {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .headPadding {
+        padding: 0px 20px 0px 20px;
+    }
+
+    #headDesc {
+        padding: 0px 20px 20px 20px;
+    }
+
+    .meetClient{
+        padding: 50px 20px 0px 20px;
+        
+    }
+
+    #meetClient {
+        padding: 30px 0px 30px 0px;
+    }
+
+    #noCharge {
+        padding: 30px 0px 30px 0px;
+    }
+
+    #questions {
+        padding: 30px 0px 30px 0px;
+    }
+
+    #download {
+        padding: 30px 0px 30px 0px;
+    }
+    
+    .pr-50{
+        padding-right: 0px;
+    }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 425px) {
     body {
       padding: 0px 20px 0px 20px;
+    }
+
+    #firstLeft {
+        padding: 20px 10px 0px 10px;
+    }
+
+    #editorsChoice {
+        padding: 5px 10px 5px 10px;
+    }
+
+    .firstHeading {
+        font-size: 31px;
+        margin-top: 10px;
+    }
+
+    .secondHeading {
+        font-size: 17px;
+    }
+
+    .tryButton {
+        padding: 5px 18px 5px 18px;
+    }
+
+    #demoVideo {
+        font-size: 14px;
+        margin-left: 0px; 
+    }
+
+    .mobileM-10{
+        margin-top: 40px;
+    }
+
+    #awesomeText {
+        font-size: 30px;
+    }
+
+    .bloodTest{
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    #featuresSection {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    #codeIntegration {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .learnBtn {
+        margin-top: 10px;
+    }
+
+    #chooseApp {
+        padding: 10px 0px 10px 0px;
+    }  
+    
+    #awesomeDesc {
+        padding: 0px 10px 0px 10px;
+    }
+
+    #ultimateFeatures {
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .noChargeSecond {
+        padding: 15px 0px 0px 0px;
+    }
+
+    .card {
+       margin-top: 10px;
+    }
+
+    .mt-50 {
+        margin-top: 30px;
+    }
+    .ml-40 {
+        margin-left: 0px;
+    }
+
+    .footer-Img{
+        margin-top: 30px;
     }
   }
