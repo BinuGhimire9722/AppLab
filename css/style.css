@@ -6,11 +6,11 @@
 
 body{
     max-width: 1600px;
-    padding: 0px 220px 0px 220px;
+    padding: 0px 60px 0px 60px;
 }
 
 #navigation{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .nav-link{
@@ -307,6 +307,65 @@ body{
 
 .mt-50{
     margin-top: 50px;
+}
+
+.appLab{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#footer{
+
+    position: relative;
+    background-color: #09142e;
+    padding: 115px 0px 115px 0px;
+}
+
+.bottomNav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.bottomNav ul{
+    list-style-type: none;
+}
+
+.bottomNav ul li{
+    float: left;
+    padding: 55px 20px 0px 20px;
+}
+
+.icon{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+
+}
+
+.icon ul{
+    list-style-type: none;
+    
+
+}
+
+.icon ul li{
+    float: left;
+    padding: 110px 20px 80px 20px;
+}
+
+.copyright{
+    padding: 180px 0px 70px 0px;
+    color: white;
+
+}
+
+.copyright p{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media only screen and (max-width: 768px) {
